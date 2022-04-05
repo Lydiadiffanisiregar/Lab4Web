@@ -7,80 +7,47 @@
 ## Langkah langkah praktikum 4
 1. Pertama - tama membuka VSC 
 ![foto](foto/awalan.PNG)
+
 2. Kemudian membuat dokumen HTML dengan nama file <strong> lab4_box.html </strong>
-![foto](foto/foto1.PNG)
+![foto](foto/1.PNG)
 Ini hasil di Microsoft Edge nya
 ![foto](foto/hasil1.PNG)
 3. Kemudian tambahkan kode untuk membuat box element dengan tag div seperti berikut.
-![foto](foto/foto2.PNG)
+![foto](foto/2.PNG)
 4. Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seperti berikut.
-![foto](foto/foto3.PNG)
+![foto](foto/3.PNG)
 Ini hasil di Microsoft Edge nya
 ![foto](foto/hasil3.PNG)
 5. Mengatur Clearfix Element
 Clearfix digunakan untuk mengatur element setelah float element. Property clear digunakan untuk mengaturnya.
 
 Tambahkan element div lainnya seteleah div3 seperti berikut.
-![foto](foto/foto4.PNG)
+![foto](foto/4.PNG)
 Kemudian atur property clear pada CSS, seperti berikut.
-![foto](foto/foto5.PNG)
+![foto](foto/5.PNG)
 Ini hasil di Microsoft Edge nya
 ![foto](foto/hasil5.PNG)
 Saya akan melakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya <strong> (left, both, right) </strong>, dan amati perubahannya.
 
 <strong> Membuat Layout Sederhana </strong>
 Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css.
-![foto](foto/foto6.PNG)
+![foto](foto/6.PNG)
 Kemudian tulislah kode berikut.
-![foto](foto/foto7.PNG)
+![foto](foto/7.PNG)
 Ini hasil di Microsoft Edge nya
 ![foto](foto/hasil67.PNG)
 Kemudian tambahkan kode CSS untuk membuat layoutnya.
-/* import google font */
-@import
-url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400 ;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0 ,300;0,700;1,300&display=swap');
-/* Reset CSS */
-*{
-	margin: 0;
-	padding: 0; 
-}
-body{ 
-	line-height:1;
-	font-size:100%;
-	font-family:'Open Sans', sans-serif; 
-	color:#5a5a5a;
-}
-#container{
-    width: 980px;
-    margin: 0 auto;
-	box-shadow: 0 0 1em #cccccc; 
-}
-
-/* header */
-header{
-    padding: 20px;
-}
-header h1{
-    margin: 20px 10px;
-    color: #b5b5b5;
-}
-![foto](foto/foto8.PNG)
+![foto](foto/8.PNG)
 Ini hasil di Microsoft Edge nya
 ![foto](foto/hasil8.PNG)
 
 <strong> Membuat Navigasi </strong>
 Kemudian selanjutnya mengatur navigasi.
-![foto](foto/foto9.PNG)
+![foto](foto/9.PNG)
 Ini hasil di Microsoft Edge nya
 ![foto](foto/hasil9.PNG)
 <strong> Membuat Hero Panel </strong>
 Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
-<section id="hero">
-			<h1>Hello World!</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
-			<a href="home.html" class="btn btn-large">Learn more &raquo;</a>
-</section> 
 ![foto](foto/foto10.PNG)
 ![foto](foto/foto11.PNG)
 Ini hasil di Microsoft Edge nya
